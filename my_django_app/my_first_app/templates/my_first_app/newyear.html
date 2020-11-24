@@ -1,0 +1,11 @@
+{% extends "my_first_app/layout.html" %}
+
+{% block title %}Is it New Years?{% endblock %}
+
+{% block body %}
+        {% if newyear %}
+            <h1>YES</h1>
+        {% else %}
+            <h1>NO</h1>
+        {% endif %}
+{% endblock %}
