@@ -1,7 +1,5 @@
 body {
     padding: 10px;
-}
-
-body {
-    background-color: lightblue;
+    background-color: #F0FFFF;
+    opacity: 0.67;
 }
