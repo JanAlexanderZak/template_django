@@ -4,7 +4,8 @@
 <html lang="en">
     <head>
         <title>{% block title %}{% endblock %}</title>
-        <link href="{% static 'my_first_app/styles.css' %}" rel="stylesheet">
+        <!-- + random timestamp to avoid browser cache -->
+        <link href="{% static 'my_first_app/styles.css' %}?{% now 'U' %}" rel="stylesheet">
     </head>
     <body>
         {% block body %}
